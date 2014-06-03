@@ -1,3 +1,2 @@
 #!/bin/sh
-exec /sbin/setuser app /hubot/bin/hubot
-
+exec /sbin/setuser app bash -c 'cd /hubot && bin/hubot'
